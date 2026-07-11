@@ -118,7 +118,7 @@ public final class AvailableServerPortFinder {
      *             is thrown if the port number is out of range
      * @throws NoSuchElementException
      *             if there are no ports available
-     * @return the available port
+     * @return The available port
      */
     public static synchronized int getNextAvailable() {
         final int next = getNextAvailable(currentMinPort.get());
@@ -135,7 +135,7 @@ public final class AvailableServerPortFinder {
      *             is thrown if the port number is out of range
      * @throws NoSuchElementException
      *             if there are no ports available
-     * @return the available port
+     * @return The available port
      */
     public static synchronized int getNextAvailable(final int fromPort) {
         if (fromPort < currentMinPort.get() || fromPort > MAX_PORT_NUMBER) {
