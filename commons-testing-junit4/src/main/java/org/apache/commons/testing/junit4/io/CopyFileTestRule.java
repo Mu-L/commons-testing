@@ -41,7 +41,7 @@ public class CopyFileTestRule extends ExternalResource {
      * @param targetTemporaryFolder
      *            the destination folder.
      * @param targetFilePath
-     * @return a new test rule.
+     * @return A new test rule.
      */
     public static CopyFileTestRule create(final String sourceFilePath, final TemporaryFolder targetTemporaryFolder,
             final String targetFilePath) {

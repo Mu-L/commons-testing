@@ -30,7 +30,7 @@ public class RuleChainFactory {
      *
      * @param testRules
      *            test rules to evaluate
-     * @return a new rule chain.
+     * @return A new rule chain.
      */
     public static RuleChain create(final TestRule... testRules) {
         if (testRules == null || testRules.length == 0) {
